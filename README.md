@@ -1,4 +1,4 @@
-# Hola, sóc en Josep Montañà 👋
+[# Hola, sóc en Josep Montañà 👋
 
 > **Una proposta de sistema operatiu per al coneixement docent.**  
 > El currículum com un graf de text pla: llegible, versionable i teu.  
@@ -85,3 +85,4 @@ Aquest projecte s'ha desenvolupat en **cocreació amb models de llenguatge** (Cl
 ---
 
 *Si fas servir el kit a la teva aula, si crees el graf d'un cicle nou o si tens idees per simplificar-lo, obre un issue o envia'm un correu. El taller és obert. Porteu el cafè.* ☕
+](https://github.com/jmonta23-okf)
