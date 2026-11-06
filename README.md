@@ -1,10 +1,10 @@
-Hola, sóc en Josep Montañà 👋
+# Hola, sóc en Josep Montañà 👋
 
-> **Una proposta de sistema operatiu per al coneixement docent.**  
+> **Una proposta de sistema operatiu per al coneixement curricular docent.**  
 > El currículum com un graf de text pla: llegible, versionable i teu.  
 > I una invitació oberta a construir, entre tots, un estàndard per al currículum.
 
-[![DOI](https://zenodo.org/badge/1440306517.svg)](https://doi.org/10.5281/zenodo.23823819)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23823818.svg)](https://doi.org/10.5281/zenodo.23823818)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/jmonta23-okf/okf-starter-kit/blob/main/LICENSE.md)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-blue.svg)](https://github.com/jmonta23-okf/okf-starter-kit/blob/main/LICENSE.md)
 
@@ -18,9 +18,21 @@ L'any 2015, barallant-me amb ontologies i classificacions mèdiques (SNOMED-CT, 
 
 ## 🎯 Què estic construint
 
-**[OKF Starter Kit](https://github.com/jmonta23-okf/okf-starter-kit)** — una proposta de sistema operatiu per al coneixement docent, amb DOI permanent ([10.5281/zenodo.23823819](https://doi.org/10.5281/zenodo.23823819)).
+**[OKF Starter Kit](https://github.com/jmonta23-okf/okf-starter-kit)** — una proposta de sistema operatiu per al coneixement curricular docent, amb DOI permanent ([10.5281/zenodo.23823818](https://doi.org/10.5281/zenodo.23823818)).
 
 La idea és simple: en lloc de tenir documents solts, el teu currículum es converteix en un **graf de nodes interconnectats** (mòduls, activitats, criteris d'avaluació) que pots validar, versionar i compartir. I, quan el coneixement està ordenat i validat, pots connectar-hi eines d'IA mitjançant els **Paquets LLM**: receptes obertes, transparents i en text pla que converteixen el que saps en el que la teva aula necessita cada dia.
+
+**Versió actual: V1.3** (amb 38 codis d'error, 75 tests, 41 nodes OKF validats amb 0 errors).
+
+### Tres portes d'entrada (i una de sortida)
+
+El kit té **tres Paquets LLM** que cobreixen tot el cicle:
+
+| Paquet | Enfocament | Punt de partida | Punt d'arribada |
+|:---|:---|:---|:---|
+| **Paquet 00** | Deductiu | Currículum oficial | Vault construït |
+| **Paquet 01** | Inductiu | Programació existent | Vault construït |
+| **Paquet 02** | Sortida | Vault construït | Document oficial (Word) |
 
 El kit és la **síntesi de dos projectes reals** (TCAI-OKF i SAD-GRAF) i forma part d'un ecosistema més ampli, **OKF-CATALA**, que comparteix eines i filosofia:
 
@@ -29,6 +41,12 @@ El kit és la **síntesi de dos projectes reals** (TCAI-OKF i SAD-GRAF) i forma 
 - **OKF-CURS-FP** (2026-2027): el curs formatiu de 9 mòduls (M0-M8) que ensenya el sistema.
 - **PTE-OKF** (2026-2027): el vault de Pedagogia Terapèutica (adaptació d'OKF-CURS-FP per a l'Ariadna C.).
 - **OKF-CURS-MP1523** (2026-2027): el vault per al mòdul MP1523 (adaptació d'OKF-CURS-FP per a en César G.).
+
+---
+
+## 📰 Publicacions recents
+
+- **[Del laboratori a la sala de mestres: un currículum que és una xarxa viva](https://comunitat.edigital.cat/t/del-laboratori-a-la-sala-de-mestres-un-curriculum-que-es-una-xarxa-viva/47039)** (article de difusió, novembre de 2026). Reflexions sobre OKF, els Paquets LLM i el gust de fer les coses amb les mans. Publicat a la comunitat eDigital.
 
 ---
 
@@ -46,7 +64,9 @@ El kit és la **síntesi de dos projectes reals** (TCAI-OKF i SAD-GRAF) i forma 
 
 Si fas servir el kit en un treball acadèmic o una publicació:
 
-> Montañà Piqué, J. (2026). *OKF Starter Kit: una proposta de sistema operatiu per al coneixement curricular* (V1.1) [Programari]. Zenodo. https://doi.org/10.5281/zenodo.23823819
+> Montañà Piqué, J. (2026). *OKF Starter Kit: una proposta de sistema operatiu per al coneixement curricular docent* (V1.3) [Programari]. Zenodo. https://doi.org/10.5281/zenodo.23964880
+
+*(Per citar el concepte global del projecte de manera independent de la versió: [https://doi.org/10.5281/zenodo.23823818](https://doi.org/10.5281/zenodo.23823818)).*
 
 ---
 
@@ -80,9 +100,9 @@ Aquest projecte s'ha desenvolupat en **cocreació amb models de llenguatge** (Cl
 - **GitHub:** [@jmonta23-okf](https://github.com/jmonta23-okf)
 - **Correu:** [jmonta23@gmail.com](mailto:jmonta23@gmail.com)
 - **Repositori principal:** [okf-starter-kit](https://github.com/jmonta23-okf/okf-starter-kit)
-- **DOI:** [10.5281/zenodo.23823819](https://doi.org/10.5281/zenodo.23823819)
+- **Concept DOI:** [10.5281/zenodo.23823818](https://doi.org/10.5281/zenodo.23823818)
+- **DOI V1.3:** [10.5281/zenodo.23964880](https://doi.org/10.5281/zenodo.23964880)
 
 ---
 
 *Si fas servir el kit a la teva aula, si crees el graf d'un cicle nou o si tens idees per simplificar-lo, obre un issue o envia'm un correu. El taller és obert. Porteu el cafè.* ☕
-](https://github.com/jmonta23-okf)
