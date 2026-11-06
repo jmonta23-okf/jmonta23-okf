@@ -1,4 +1,4 @@
-[# Hola, sóc en Josep Montañà 👋
+Hola, sóc en Josep Montañà 👋
 
 > **Una proposta de sistema operatiu per al coneixement docent.**  
 > El currículum com un graf de text pla: llegible, versionable i teu.  
